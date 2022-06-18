@@ -2,9 +2,9 @@ import React from 'react'
 
 function Card({props}) {
   return (
-    <article className="overflow-hidden rounded-lg shadow-lg w-2/4">
+    <article className="overflow-hidden rounded-lg shadow-lg w-5/6">
         <a href="https://google.com" target="_blank">
-            <img alt="Placeholder" className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+            <img alt="Placeholder" className="block h-96 w-full" src="https://picsum.photos/600/400/?random" />
         </a>
 
         <header className="flex items-center justify-center leading-tight px-2 pt-2 md:px-4">
