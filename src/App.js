@@ -11,6 +11,8 @@ function App() {
         
         <Routes>
             <Route path="/" element={<h1>home</h1>} />
+            <Route path="/city/:cityId" element={<h1>city</h1>} />
+            <Route path="/place/:placeId" element={<h1>place</h1>} />
             <Route path="/login" element={<h1>login</h1>} />
             <Route path="/signup" element={<h1>signup</h1>} />
          
