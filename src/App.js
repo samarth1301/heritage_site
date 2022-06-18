@@ -4,13 +4,14 @@ import {
   Route,
   Navigate
 } from "react-router-dom";
+import Home from "./pages/Home/Home";
 function App() {
   return (
     <>
       <Router>
         
         <Routes>
-            <Route path="/" element={<h1>home</h1>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/city/:cityId" element={<h1>city</h1>} />
             <Route path="/place/:placeId" element={<h1>place</h1>} />
             <Route path="/login" element={<h1>login</h1>} />
